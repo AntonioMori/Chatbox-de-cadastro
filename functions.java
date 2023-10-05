@@ -40,21 +40,23 @@ public class functions {
 
      }
 
-     public static String isValidCPF(String cpf){
+     public static String isValidCPF(String cpf) {
+        
+        cpf = cpf.replaceAll("[^0-9]", "");
+        
         boolean isValid = cpf.matches("[0-9]{11}");
         if (isValid) {
-            return cpf;
+            return "CPF válido";
         } else {
-            return "CPF inválido";
+            return "CPF inválido, por favor digite novamente";
         }
-
      }
+
+
 
      public static String hideCPF(String cpf){
         String cpfHidden = cpf.replaceAll("\\d(?=\\d{4})", "*");
       return cpfHidden;
      }
     
-
 }
-
