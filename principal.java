@@ -1,6 +1,6 @@
 public class principal{
     public static void main(String[] args) {
-        functions.slowWrite("Bem vindo ao AluraBank Chat-bot\n"); 
+        functions.slowWrite("Bem vindo ao Antonio Bank Chat-bot\n"); 
         functions.write("Sou o seu atendente virtual altamente qualificado para atende-lo," 
         + " para comerçarmos, qual o seu nome?");
         String name = functions.input();
