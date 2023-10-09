@@ -23,7 +23,7 @@ public class principal{
             String result = functions.isValidCPF(CPF);
             
             if(result == "CPF válido"){                               //pedindo a senha do meliante
-                functions.write("\nObrigado, agora estamos a um passo de te judar, digite a sua senha" +
+                functions.write("\nObrigado, agora estamos a um passo de te judar, digite a sua senha " +
                 "para validar o login:");
                 break;
             }
